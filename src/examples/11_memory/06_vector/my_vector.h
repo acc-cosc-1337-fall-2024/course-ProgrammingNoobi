@@ -1,1 +1,4 @@
-//
+//CLASS VECTOR
+{
+PUBLIC:
+  VECTOR()
