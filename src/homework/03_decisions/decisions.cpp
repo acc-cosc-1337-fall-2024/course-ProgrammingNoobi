@@ -1,12 +1,13 @@
-
 //write include statement for decisions header
 #include <iostream>
-  #inlucde "decisions.h"
+#include "decisions.h"
 
-//uae if/else if / else.
+
+// Using if/else if/ else.
 
 std::string get_letter_grade_using_if(int grade)
-{ 
+{
+    
     std::string letter_grade = "";
 
     if (grade >= 90 && grade <= 100){
@@ -36,23 +37,7 @@ std::string get_letter_grade_using_if(int grade)
     return letter_grade;
 
 }
-std::string letter_grade = "";
 
-if (grade >= 90 && grade <= 100){
-  letter_grade ="A";
-}
-
-else if (grade >= 80 && grade < 90) {
-  letter_grade = "B"; 
-}
-
-else if (grade >= 70 && grade < 80){
-  letter_grade = "C";
-}
-
-else if (grade >= 60 && grade < 70){
-  letter_grade = "D";
-}
 // This function would allow us to use ranges in cases, but it needs if logic as well. So I use /10.
 // However will be used for input validation.
 
